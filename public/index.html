@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .boarders {
+            boarder: 2px solid black;
+        }
+
+
+        .p_left {
+            padding-left: 50px;
+        }
+        .p_right {
+            padding-right: 100px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container my-4">
+        <nav class="navbar navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://picsum.photos/200" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top fw-bold">
+                    BooksApp
+                </a>
+                <a class="navbar-brand" href="#">
+                    <p class="fw-bold">91 TECHNOLOGIES PRIVATE LIMITED</p>
+                    <p class="fst-italic p_left">1190-80/1, 26th Main Road, 9th Block</p>
+                    <p class="fst-italic p_left">Jayanagar, Bengaluru - 560069</p>
+                    <p class="p_left">CIN:U74999KA2019PTC122507 </p>
+                    <p class="p_left">Call us: +91 70222 41471</p>
+                    <p class="p_left">Mail us: care@booksapp.in</p>
+                    <p class="p_left">Website: https://booksapp.in</p>
+                </a>
+            </div>
+
+        </nav>
+        <div>
+            <h2 class="text-center">Website Developer Assessment Task</h2>
+        </div>
+
+        <div class="container-fluid pt-4">
+            <ul>
+                <li>
+                    <p class="font-weight-normal"> Please create a page identical attached to this page</p>
+                </li>
+                <li>
+                    <p class="font-weight-normal"> Please use this framework(<a
+                            href="https://demos.creative-tim.com/argon-dashboard/" class="stretched-link">Argon
+                            Dashboard</a>) </p>
+                    <ul style="list-style-type:circle p_left">
+                        <li>Installation -</li>
+                        <a href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/quick-start.
+                        html"
+                            class="stretched-link">https://demos.creative-tim.com/argon-dashboard/docs/getting-started/quick-start.
+                            html</a>
+                    </ul>
+                </li>
+                <li>
+                    <p class="font-weight-normal">Please call the below API and show its response as Page data</p>
+                    <ul style="list-style-type:circle p_left margin">
+                        <li> <a href="https://run.mocky.io/v3/d53400a3-6126-495e-9d16-0b4414b537b"
+                                class="stretched-link">
+                                https://run.mocky.io/v3/d53400a3-6126-495e-9d16-0b4414b537b3l</a></li>
+                        <li>This is a Get API</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="container-fluid .bg-light.bg-gradient">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand">Clients</a>
+                  <form class="d-flex justify-content-around p_right ">
+                    <p ><input class="form-control me-2 p_right" type="search" placeholder="Search By Customer Names" aria-label="Search"></p>
+                    <p class="p_left"><button class="btn btn-primary" type="submit">Search</button></p>
+                    <p class="p_left"><button class="btn btn-primary" type="submit">Add a New Customer</button></p>
+                  </form>
+                </div>
+              </nav>
+            <div class="row mt-5">
+                <div clas="col-lg-12">
+                    <table id="ticketTable" class="table table-striped table-bordered" style="width: 100%">
+                        <thead>
+                            <tr>
+                                <th>Client ID</th>
+                                <th>Closing Agent</th>
+                                <th>Company</th>
+                                <th>Invoice Paid</th>
+                                <th>Invoice Pending</th>
+                                <th>Status</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    Ram
+                                </td>
+                                <td>
+                                    abcd
+                                </td>
+                                <td>
+                                    111111 $
+                                </td>
+                                <td>
+                                    453442 $
+                                </td>
+                                <td>
+                                    Pending
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    sRam
+                                </td>
+                                <td>
+                                    abcd
+                                </td>
+                                <td>
+                                    111111 $
+                                </td>
+                                <td>
+                                    453442 $
+                                </td>
+                                <td>
+                                    Pending
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    3
+                                </td>
+                                <td>
+                                   k. Ram
+                                </td>
+                                <td>
+                                    abcd
+                                </td>
+                                <td>
+                                    111111 $
+                                </td>
+                                <td>
+                                    453442 $
+                                </td>
+                                <td>
+                                    Pending
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    4
+                                </td>
+                                <td>
+                                   b. Ram
+                                </td>
+                                <td>
+                                    abcd
+                                </td>
+                                <td>
+                                    111111 $
+                                </td>
+                                <td>
+                                    453442 $
+                                </td>
+                                <td>
+                                    Pending
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    5
+                                </td>
+                                <td>
+                                   A. Ram
+                                </td>
+                                <td>
+                                    abcd
+                                </td>
+                                <td>
+                                    111111 $
+                                </td>
+                                <td>
+                                    453442 $
+                                </td>
+                                <td>
+                                    Pending
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    6
+                                </td>
+                                <td>
+                                   NN. Ram
+                                </td>
+                                <td>
+                                    abcd
+                                </td>
+                                <td>
+                                    111111 $
+                                </td>
+                                <td>
+                                    453442 $
+                                </td>
+                                <td>
+                                    Pending
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
